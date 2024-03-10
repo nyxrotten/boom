@@ -1,17 +1,87 @@
 body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f0f0f0;
+  font-family: "Jost", sans-serif;
+  background-color: #1F1C1B;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
+main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
 h1 {
-  color: #333;
+  font-family: "Jost", sans-serif;
+  font-weight: 900;
+  font-size: 4.5em;
+  color: #E15E20;
 }
-#result .green {
-  color: #2ecc71;
+ span {
+  color: #FFEEAE;
+ }
+
+p {
+  color: #FFAC8A;
+  font-weight: 200;
+  font-size: 1.5em;
 }
 
-#result .red {
-  color: #e74c3c;
+input {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  font-family: 'Jost';
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+#countdown {
+  margin-top: 15px;
+  color:#E15E20;
+  font-size: 1.7em;
+  font-weight: 400;
+  height: 50px;
+  text-align: center;
+
+}
+
+
+#result {
+  color: #2ecc71;
+  margin-top: 10px;
+  font-size: 1.7em;
+  font-weight: 400;
+  height: 50px;
+  text-align: center;
+}
+
+
+#restart {
+  font-family: 'Jost';
+  font-size: 1.5em;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  background-color: #FFEEAE;
+  
+}
+
+#restart:hover {
+  background-color: #E15E20;
+  color: #1F1C1B;
+}
+
+#choice {
+  color: #FFEEAE;
+  font-size: 1.5em;
+  font-weight: 200;
+  margin-bottom: 30px;
+  margin-top: 5px;
+  height: 20px;
 }
